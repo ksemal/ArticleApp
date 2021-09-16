@@ -11,6 +11,6 @@ class NewRemoteDataSourceImpl(
     private val page: Int,
 ): NewsRemoteDataSource {
     override suspend fun getTopHeadlines(): Response<APIResponse> {
-        TODO("Not yet implemented")
+        return newsAPIService.getTopHeadlines(country, page)
     }
 }
