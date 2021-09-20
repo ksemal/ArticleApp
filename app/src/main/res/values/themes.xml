@@ -15,5 +15,6 @@
         <item name="colorSurface">@color/layout_background</item>
         <item name="android:windowBackground">@color/layout_background</item>
         <item name="android:colorBackground">@color/layout_background</item>
+        <item name="android:editTextColor">@android:color/white</item>
     </style>
 </resources>
