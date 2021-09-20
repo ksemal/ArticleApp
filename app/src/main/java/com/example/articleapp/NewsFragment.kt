@@ -31,12 +31,12 @@ class NewsFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         fragmentNewsBinding = FragmentNewsBinding.bind(view)
         viewModel = (activity as MainActivity).viewModel
+        newsAdapter = (activity as MainActivity).newsAdapter
         initRecyclerView()
         viewNewsList()
     }
 
     private fun initRecyclerView() {
-        newsAdapter = NewsAdapter()
         fragmentNewsBinding.rvNews.apply {
             adapter = newsAdapter
             layoutManager = LinearLayoutManager(activity)
