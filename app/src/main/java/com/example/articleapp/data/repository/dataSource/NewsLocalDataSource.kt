@@ -7,4 +7,6 @@ interface NewsLocalDataSource {
     suspend fun saveArticlesToDB(article: Article)
 
     fun getSavedArticles(): Flow<List<Article>>
+
+    suspend fun deleteArticleFromDB(article: Article)
 }
