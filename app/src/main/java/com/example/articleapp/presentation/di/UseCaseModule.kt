@@ -32,4 +32,10 @@ class UseCaseModule {
     fun provideSaveNewsUseCase(newsRepository: NewsRepository): SaveNewsUseCase {
         return SaveNewsUseCase(newsRepository)
     }
+
+    @Provides
+    @Singleton
+    fun provideGetSavedNewsUseCase(newsRepository: NewsRepository): GetSavedNewsUseCase {
+        return GetSavedNewsUseCase(newsRepository)
+    }
 }
