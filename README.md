@@ -40,18 +40,22 @@ Article app allows you:
 ### Screenshots
 
 Scroll through the list of articles with paging
+
 https://user-images.githubusercontent.com/42688915/134586984-af1baf89-b0ba-4711-8235-8c770825cd52.mov
 
 
 Search for a specific article from the list
+
 https://user-images.githubusercontent.com/42688915/134587002-27e83eb8-aba0-4872-aa2e-7869f6bdc411.mov
 
 
 Add article to saved tab
+
 https://user-images.githubusercontent.com/42688915/134587050-4f9bacdd-9fc4-4968-8315-eb9bb0a3479a.mov
 
 
 Delete article from sasved tab
+
 https://user-images.githubusercontent.com/42688915/134587072-ae278955-f6d1-4585-8445-c316ad7471e2.mov
 
 
